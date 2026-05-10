@@ -9,11 +9,13 @@
 
 .sidebar{
   width: 10%!important;
-  height: 90vh!important;
+  height: auto!important;
+  background-color: rgb(189, 247, 142);
   float: left;
 }
 
-.content{
+.hero{
   width: 100%!important;
   height: 90vh!important;
 }
+

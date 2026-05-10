@@ -1,0 +1,80 @@
+/* Display Layout Properties */
+/* # Display FLEX properties */
+.d-flex{
+    display:flex;
+}
+
+.flex-1{
+    justify-content: start;
+    align-items: start;
+}
+
+.flex-2{
+    justify-content: center;
+    align-items: start;
+}
+
+.flex-3{
+    justify-content: end;
+    align-items: start;
+}
+
+.flex-4{
+    justify-content: start;
+    align-items: center;
+}
+
+.flex-5{
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-6{
+    justify-content: end;
+    align-items: center;
+}
+
+.flex-7{
+    justify-content: start;
+    align-items: end;
+}
+
+.flex-8{
+    justify-content: center;
+    align-items: end;
+}
+
+.flex-9{
+    justify-content: end;
+    align-items: end;
+}
+
+.justify-content-start{
+    justify-content: start;
+}
+
+.justify-content-center{
+    justify-content: center;
+}
+
+.justify-content-end{
+    justify-content: end;
+}
+
+.align-items-start{
+    align-items: start;
+}
+
+.align-items-center{
+    align-items: center;
+}
+
+.align-items-end{
+    align-items: end;
+}
+
+
+/* Display GRID properties */
+.d-grid{
+    display: grid;
+}

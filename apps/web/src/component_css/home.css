@@ -1,0 +1,16 @@
+h1{
+    height: 10vh;
+}
+
+.hero{
+    height: 90vh!important;
+}
+
+.box{
+    width: 30%!important;
+    height: 30%;
+    background-color: white;
+    border: 3px solid green;
+    border-radius: 10px;
+
+}   
