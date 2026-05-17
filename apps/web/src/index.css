@@ -9,13 +9,31 @@
 
 .sidebar{
   width: 10%!important;
-  height: auto!important;
+  min-height: 90vh;
+  max-height: auto;
   background-color: rgb(189, 247, 142);
   float: left;
 }
 
 .hero{
   width: 100%!important;
-  height: 90vh!important;
+  min-height: 90vh!important;
+  height: auto!important;
+  overflow-y: scroll;
+  
+
 }
 
+.loginForm ,.signup{
+  width: 25%;
+  height: auto;
+  background-color: rgb(238, 250, 238);
+  border: 2px solid green;
+  padding: 5px 10px;
+  border-radius: 10px;
+
+  input{
+    border: 2px solid green;
+    border-radius: 5px;
+  }
+}
