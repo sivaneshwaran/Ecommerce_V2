@@ -10,6 +10,7 @@ import Login from "./routes/Login.jsx"
 import Signup from "./routes/Signup.jsx"
 import "./component_css/layout.css"
 import {BrowserRouter, Routes, Route} from "react-router-dom"
+import ProtectedRoute from './routes/ProtectedRoute.jsx'
 
 function Page(){
     return(
@@ -18,7 +19,9 @@ function Page(){
                 <Routes>
                     <Route path="/" element={<Home />}/>
                     <Route path="/user" element={<User />}/>
-                    <Route path="/achievement" element={<Achievement />}/>
+                    <Route element={<ProtectedRoute />}>
+                        <Route path="/achievement" element={<Achievement />}/>
+                    </Route>
                     <Route path="/service" element={<Service />}/>
                     <Route path="/contact" element={<Contact />}/>
                     <Route path="/users/:username" element={<Users />} />
